@@ -1,10 +1,114 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> dhari001.github.io </title>
+    <title> SEG3125 Survey Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    
+    <div class="container"> 
+      <h1 id="heading"> UI EVALUATION: SURVEY</h1>
+      <p style="color:#314455" id="blurb"> <b> <i>The purpose of this survey is to evaluate the User Interface (UI) of the Airbnb website. This will allow us to identify areas of improvements needed on the website. After you finish evaluating the interface, we will be able to take your feedback and optimize the interface to meet your demands. <a href="https://www.airbnb.ca/?locale=en&_set_bev_on_new_domain=1620935585_ODIyY2Y1M2U4Mjlm">Here is the website.</a> As you tour the website, observe the fucntionality, efficiency and reliablity of features. Thank you for taking time out of your day to complete this survey, we really appreciate it. </i></b></p>
+      
+      <div class="image">
+        <a href="https://www.airbnb.ca/?locale=en&_set_bev_on_new_domain=1620935585_ODIyY2Y1M2U4Mjlm"><img class="website" src="images/webimage.PNG"/></a>
+        <p class="about"> Airbnb is part of the lodging industry and takes advantage of the "sharing economy". It operates by renting out homes in a similar manner to a hotel. While it maintains the same business model as a hotel/motel, it is a more comfortable experience since it feels like you're right at home. It is especially beneficial for tourists or people with wanderlust who are often far from home. Additionally, it allows for an opportunity to explore the town you may want to move to since you're immersed right into the neighbourhood without making a permanent or long-term commitmment. It is also beneficial for those who want to rent out their homes or part of their homes. This is an easy way to make money without needing to leave your home! </p>
+      </div>
+
+      <div class="survey"> 
+        <form action="" name="uiQuestioniarre">
+          <!-- Text section -->
+          <div class="name_form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required> 
+        </div>
+        <!-- end of text section -->
+
+        <!-- Type Email section -->
+        <div class="email_form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="formControl" placeholder="Enter your email" required>
+        </div>
+        <!-- end of Email section -->
+
+        <!-- Multi-Select section -->
+        <div class="multi-form">
+          <p  style=font-size:20px; id="question"> <b>What did you find best about the search function? </b></p>
+          <label for="">
+              <input type="checkbox" name="functionality" class="checkbox" value="ease-of-use"> Ease of use <br>
+          </label>
+          <label for="">
+              <input type="checkbox" name="functionality" class="checkbox" value="interface-design"> Interface design <br>
+          </label>
+          <label for="">
+              <input type="checkbox" name="functionality" class="checkbox" value="features-provided">  Features provided <br>
+          </label>
+          <label for="">
+              <input type="checkbox" name="functionality" class="checkbox" value="quality-of-output"> Quality of output <br>
+          </label>
+          <label for="">
+              <input type="checkbox" name="functionality" class="checkbox" value="other"> Other
+          </label>
+      </div>
+      <!-- End of multiselect section -->
+
+      <!-- radio button section -->
+      <div class="single_form">
+        <p style=font-size:20px; id="question"> <b>Do the bookings function consistently for both the rentals and experiences?</b></p>
+        <label for="">
+            <input type="radio" name="bookings" value="yes" class="inputRadio"> Yes <br>
+        </label>
+        <label for="">
+            <input type="radio" name="bookings" value="no" class="inputRadio"> No <br>
+        </label>
+        <label for="">
+            <input type="radio" name="bookings" value="sometimes" class="inputRadio"> Sometimes
+        </label>
+    </div>
+    <!-- end of radio button -->
+
+     <!-- select section -->
+     <div class="drop_form">
+      <p style=font-size:20px; id="question"> <b>On a scale of 1 to 5 (1 being extremely easy and 5 being extremely difficult) how easy was the website to navigate?</b></p>
+      <select name="scale" required id="dropdown" class="formControl">
+          <option value disabled selected >Select a value</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+      </select>
+    </div>
+    <div class="para_from">
+      <p style=font-size:20px; id="question"> <b>Please provide any comments or suggestions that can help improve the user interface of the website.</b></p>
+      <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+    </div>
+    <div class="button_submit">
+      <button type="submit" id="submit" class="btn">SUBMIT</button>
+    </div>
+  <!-- end of select section -->
+        </form> 
+        
+        <footer class="foot">
+          <p style="font-family: 'Dancing Script', cursive";>Website designed by: Peter Parker</p>
+        </footer>
+      </div>
+
+
+  
+    
+
+
+          
+    
   </body>
+
+
+  
+  
+  
+
 </html>
