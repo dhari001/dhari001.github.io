@@ -6,4 +6,4 @@ This takes a look at the Airbnb website, and evaluates its UI using a survey dis
 ## Authors
 Dharitri Dixit: 300109815
 
-[Survey](https://dhari001.github.io/)
+[Survey](https://dhari001.github.io/SEG3125_LAB1/)
