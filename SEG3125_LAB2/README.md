@@ -6,4 +6,4 @@ We have designed an online grocery store after analyzing the personas of two pos
 ## Authors
 Dharitri Dixit: 300109815
 
-[Survey](https://dhari001.github.io/)
+[Grocery Store Name](https://dhari001.github.io/SEG3125_LAB2/index.html)
