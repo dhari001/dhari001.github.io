@@ -3,22 +3,22 @@
 
 var products = [
 	{
-		name: "brocoli",
-		vegetarian: true,
-		glutenFree: true,
-		price: 1.99
+		name: "Almond Milk",
+		lactoseIntolerant: true,
+		nutAllergies: true,
+		price: 3.99
 	},
 	{
-		name: "bread",
-		vegetarian: true,
-		glutenFree: false,
-		price: 2.35
+		name: "Peanut Butter",
+		lactoseIntolerant: true,
+		nutAllergies: false,
+		price: 2.30
 	},
 	{
-		name: "salmon",
-		vegetarian: false,
-		glutenFree: true,
-		price: 10.00
+		name: "Cheese",
+		lactoseIntolerant: false,
+		nutAllergies: true,
+		price: 5.00
 	}
 ];
 	
@@ -29,18 +29,23 @@ var products = [
 
 function restrictListProducts(prods, restriction) {
 	let product_names = [];
+	let product_prices = [];
 	for (let i=0; i<prods.length; i+=1) {
-		if ((restriction == "Vegetarian") && (prods[i].vegetarian == true)){
+		if ((restriction == "Lactose Intolerant") && (prods[i].lactoseIntolerant == true)){
 			product_names.push(prods[i].name);
+			product_prices.push(prods[i].price);
 		}
-		else if ((restriction == "GlutenFree") && (prods[i].glutenFree == true)){
+		else if ((restriction == "Nut Allergies") && (prods[i].nutAllergies == true)){
 			product_names.push(prods[i].name);
+			product_prices.push(prods[i].price);
 		}
 		else if (restriction == "None"){
 			product_names.push(prods[i].name);
+			product_prices.push(prods[i].price);
 		}
 	}
 	return product_names;
+	return product_prices;
 }
 
 // Calculate the total price of items, with received parameter being a list of products
