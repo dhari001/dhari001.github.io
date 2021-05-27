@@ -3,23 +3,76 @@
 
 var products = [
 	{
-		name: "Almond Milk",
+		name: "Almond Milk - $3.99",
 		lactoseIntolerant: true,
 		nutAllergies: true,
+		isOrganic: true,
 		price: 3.99
 	},
 	{
-		name: "Peanut Butter",
+		name: "Peanut Butter - $2.30",
 		lactoseIntolerant: true,
 		nutAllergies: false,
+		isOrganic: false,
 		price: 2.30
 	},
 	{
-		name: "Cheese",
+		name: "Kraft Singles - $5.00",
 		lactoseIntolerant: false,
 		nutAllergies: true,
+		isOrganic: false,
 		price: 5.00
+	},
+	{
+		name: "Apples - $2.99",
+		lactoseIntolerant: true,
+		nutAllergies: true,
+		isOrganic: true,
+		price: 2.99
+	},
+	{
+		name: "Pepporoni Pizza - $15.50",
+		lactoseIntolerant: false,
+		nutAllergies: true,
+		isOrganic: false,
+		price: 15.50
+	},
+	{
+		name: "Lays Chips - $4.00",
+		lactoseIntolerant: true,
+		nutAllergies: true,
+		isOrganic: false,
+		price: 4.00
+	},
+	{
+		name: "Greek Yogurt - $3.99",
+		lactoseIntolerant: false,
+		nutAllergies: true,
+		isOrganic: true,
+		price: 3.99
+	},
+	{
+		name: "Lindt Chocolate (Nuts and Berries) - $2.55",
+		lactoseIntolerant: true,
+		nutAllergies: false,
+		isOrganic: false,
+		price: 2.55
+	},
+	{
+		name: "Ice Cream- $7.00",
+		lactoseIntolerant: false,
+		nutAllergies: true,
+		isOrganic: false,
+		price: 7.00
+	},
+	{
+		name: "Bread - $6.56",
+		lactoseIntolerant: true,
+		nutAllergies: true,
+		isOrganic: false,
+		price: 6.56
 	}
+	
 ];
 	
 
@@ -29,23 +82,23 @@ var products = [
 
 function restrictListProducts(prods, restriction) {
 	let product_names = [];
-	let product_prices = [];
+	
 	for (let i=0; i<prods.length; i+=1) {
 		if ((restriction == "Lactose Intolerant") && (prods[i].lactoseIntolerant == true)){
 			product_names.push(prods[i].name);
-			product_prices.push(prods[i].price);
+			
 		}
 		else if ((restriction == "Nut Allergies") && (prods[i].nutAllergies == true)){
 			product_names.push(prods[i].name);
-			product_prices.push(prods[i].price);
+			
 		}
 		else if (restriction == "None"){
 			product_names.push(prods[i].name);
-			product_prices.push(prods[i].price);
+		
 		}
+		
 	}
 	return product_names;
-	return product_prices;
 }
 
 // Calculate the total price of items, with received parameter being a list of products
