@@ -1,4 +1,4 @@
-# LAB 2: Online Grocery Store
+# LAB 3: Online Grocery Store Updated
 
 ## Purpose
 We have designed an online grocery store after analyzing the personas of four possible users. 
