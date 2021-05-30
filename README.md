@@ -8,5 +8,6 @@ Dharitri Dixit: 300109815
 
 ## LABS
 [Lab 1](https://github.com/dhari001/dhari001.github.io/tree/main/SEG3125_LAB1) \
-[Lab 2](https://github.com/dhari001/dhari001.github.io/tree/main/SEG3125_LAB2)
+[Lab 2](https://github.com/dhari001/dhari001.github.io/tree/main/SEG3125_LAB2) \
+[Lab 3](https://github.com/dhari001/dhari001.github.io/tree/main/SEG3125_LAB3)
 

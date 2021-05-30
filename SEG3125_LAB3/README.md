@@ -1,4 +1,4 @@
-# LAB 2: Online Grocery Store
+# LAB 3: Online Grocery Store Updated
 
 ## Purpose
 We have designed an online grocery store after analyzing the personas of four possible users. Implemented changes using the UI toolbox to make interface more interactive and strucutured. 
@@ -6,4 +6,4 @@ We have designed an online grocery store after analyzing the personas of four po
 ## Authors
 Dharitri Dixit: 300109815
 
-[Grocery Store Name](https://dhari001.github.io/SEG3125_LAB3/index.html)
+[Penne For Your Thoughts](https://dhari001.github.io/SEG3125_LAB3/index.html)
