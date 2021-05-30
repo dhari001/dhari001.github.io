@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PENNE FOR YOUR THOUGHTS</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>~ Penne For Your Thoughts ~</h1>
+  <!-- Tab content -->
+  <div id="myCustomerModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Client Customization</h2>
+      </div>
+      <div class="modal-body">
+        <p>Tell us about your dietary restrictions and preferences!</p>
+        Do you currently have any dietary restrictions?
+        <br>
+        <br>
+        <input type="checkbox" id="lactoseIntolerant" name="lactoseIntolerant" value="LactoseIntolerant" onchange="populateListProductChoices(this.id)">
+        <label for="lactoseIntolerant">Lactose Intolerant</label><br>
+        <input type="checkbox" id="nutAllergies" name="nutAllergies" value="NutAleergies" onchange="populateListProductChoices(this.id)">
+        <label for="nutAllergies">Nut Allergy</label><br>
+        <br>
+        Would you prefer to only view organic products?
+        <br>
+        <br>
+        <input type="checkbox" id="organic" name="organic" value="Organic" onchange="populateListProductChoices(this.id)">
+        <label for="organic">Organic</label><br>
+      </div>
+    </div>
+  </div>
+
+  <div id="myCartModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Checkout</h2>
+      </div>
+      <div class="modal-body">
+        <h3>Your Cart</h3>
+        <div id="displayCart"></div>
+        <button class="block block-button" style="text-align: center; margin: 0 auto;">Proceed To Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="Products" class="tabcontent">
+    <div>
+      <button id="myCustomerBtn" class="block block-button">
+        Client Customization
+      </button>
+      <button id="myCartBtn" class="block block-button">
+        View Cart
+      </button>
+
+    </div>
+    
+    <h3>PRODUCTS</h3>
+    <p class="tagline">We preselected products based on your preferences and restrictions</p>
+    <h4>Select categories to display products</h4>
+    <div class="tab">
+      <button class="tablinks" onclick="toggleCategory(event, 'Dairy')">Dairy</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Protein Foods')">Protein Foods</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Fruits')">Fruit</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Frozen Foods')">Frozen Foods</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Grains')">Grains</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Snacks')">Snacks</button>
+      <button class="tablinks" onclick="toggleCategory(event, 'Fish')">Fish</button>
+    </div>
+    <div id="displayProduct"></div>
+    <button id="addCart" type="button" class="block block-button" onclick="selectedItems()">
+      Add To Cart
+    </button>
+  </div>
+
+  <div class="signature">
+    <footer class="foot">
+        <p style="font-family: 'Dancing Script', cursive";>Website designed by: Peter Parker</p>
+    </footer>
+  </div>
+
+  <script src="scripts/groceries.js"></script>
+  <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
