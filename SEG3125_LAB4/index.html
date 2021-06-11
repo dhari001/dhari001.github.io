@@ -1,0 +1,174 @@
+<!-- This file contains many elements adapted from the online tutoral -->
+<!-- on Bootstrap 4 as found here: https://www.w3schools.com/bootstrap4/default.asp -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This Joint's Popping</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+
+    <!-- Your own additional style sheet -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <nav class="navbar text-white p-3 my-3 ">
+            <h1><img src="assets/logo.png" width="130" height="130"> This Joint's Popping</h1>
+        </nav>
+
+        <!-- Code taken from: https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp-->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/slide1.png" alt="Los Angeles" width="1200" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/slide 2.png" alt="Chicago" width="1200" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/slide 3.png" alt="New York" width="1200" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/slide 4.png" alt="Tokyo" width="1200" height="600">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+
+    
+            <!--Code from: https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp-->
+            <div class="container">
+                <h2>Services</h2>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Acupuncture
+                    </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                      <div class="card-body">
+                        <strong>Price: </strong>$500 <br> Acupuncture is a form of alternative medicine in which thin needles are inserted into the body. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                      Inversion Therapy
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <strong>Price: </strong>$150 <br> The client is safely hung upside down on an inversion table to achieve therapeutic effects.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        Lymphatic Drainage
+                      </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <strong>Price: </strong>$350 <br> Lymphatic Drainage is a form of massage that stimulates the body’s lymphatic system.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                      Ultrasound
+                    </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <strong>Price: </strong>$700 <br> Ultrasound waves can penetrate deep into the tissues.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                      Kinesiology Tape
+                    </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <strong>Price: </strong>$240 <br> Kinesiology tape can help to reduce recovery time from injury. It aims to provide a free range of movement allowing the body to help to heal itself biomechanically.
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+
+              <!--Code from: https://www.w3schools.com/bootstrap4/bootstrap_modal.asp-->
+              <div class="appt">
+                <h2>Book an Appointment</h2>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#mySurvey">Make a Booking</button>
+                  
+                <!-- Modal -->
+                <div class="modal fade" id="mySurvey" role="dialog">
+                    <div class="modal-dialog">  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form">
+                                <p>Please fill in the form to make an appointment</p>
+                                <form>
+                                  
+                                    <label>Name: <input type="text" value=""></label>
+        
+                                    <label>Email: <input type="text" value=""></label>
+
+                                    <label>Health Card: <input type="text" value=""></label>
+                                    <br>
+        
+                                    <label>Date: <input type="date" value=""></label>
+
+                                    <br>
+                                  
+                                    <label>Time: <input type="time" value=""></label>
+                                  
+                                </form>
+                               <button type="button" class="btn btn-dark" data-dismiss="modal">Book Appointment</button>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Exit</button>
+                        </div>
+                    </div>     
+                </div>
+                </div>    
+            </div>
+        
+              
+        
+
+    </body>
+</html>
