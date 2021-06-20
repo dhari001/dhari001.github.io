@@ -7,4 +7,4 @@ Create a website for a physiotherapy clinic, while implementing bootstrap featur
 Dharitri Dixit: 300109815
 
 ## Link
-[Physio Clinic](https://dhari001.github.io/SEG3125_LAB5/index.html)
+[This Joint's Popping](https://dhari001.github.io/SEG3125_LAB5/index.html)
