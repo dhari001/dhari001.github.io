@@ -1,0 +1,313 @@
+<!-- This file contains many elements adapted from the online tutoral -->
+<!-- on Bootstrap 4 as found here: https://www.w3schools.com/bootstrap4/default.asp -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This Joint's Popping</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+
+    <!-- Your own additional style sheet -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md  navbar-dark">
+          <a class="navbar-brand" href="#">This Joint's Popping</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#team"><img src="assets/person.png" alt="logo" style="width:30px;">Team</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services"><img src="assets/fa.png" alt="logo" style="width:30px;">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#book"><img src="assets/appt.png" alt="logo" style="width:30px;">Appointments</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+      <br>
+
+      <section class="team" id="team">
+        <div class="experts">
+          <h2 class="header">Meet the Team</h2>
+          <div class="row justify-content-around">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/d2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Dr.Jill Matthews</h4>
+               
+                <p class="card-text">Hello! I have been a physiotherapist for over 5 years, and I’ve been with “This Joint’s Popping” for 2 years. I am very excited to be able to service you.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="assets/d1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Dr.Andrew Foster</h4>
+                <p class="card-text"> Bienvenue! I’m Dr.Foster, and I have been a physiotherapist with “This Joint’s Popping” for over 10 years. I specialize in broken bones
+                </p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/d3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Dr.Miller Andrews</h4>
+              <p class="card-text">Bonjour! I am a physiotherapist with “This Joint’s Popping”, and I specialize in sports injuries. I look forward to work with our clients.</p>
+            </div>
+        </div>
+
+          </div>
+        
+        </div>
+
+      </section>
+
+     
+        
+
+     
+
+        <section class="services" id="services">
+           <!--Code from: https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp-->
+           <div class="container">
+            <h2>Services</h2>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Acupuncture
+                </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                    <strong>Price: </strong>$500 <br> Acupuncture is a form of alternative medicine in which thin needles are inserted into the body. 
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  Inversion Therapy
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <strong>Price: </strong>$150 <br> The client is safely hung upside down on an inversion table to achieve therapeutic effects.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Lymphatic Drainage
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <strong>Price: </strong>$350 <br> Lymphatic Drainage is a form of massage that stimulates the body’s lymphatic system.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                  Ultrasound
+                </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <strong>Price: </strong>$700 <br> Ultrasound waves can penetrate deep into the tissues.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                  Kinesiology Tape
+                </a>
+                </div>
+                <div id="collapseFive" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <strong>Price: </strong>$240 <br> Kinesiology tape can help to reduce recovery time from injury. It aims to provide a free range of movement allowing the body to help to heal itself biomechanically.
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        
+        </section>
+
+        <section class="book" id="book">
+            <!--Code from: https://www.w3schools.com/bootstrap4/bootstrap_modal.asp-->
+            <div class="appt">
+              <h2>Book an Appointment</h2>
+              <p>To receive any of the services listed above by the experts at our clinic, please book an appointment.</p>
+              <!-- Trigger the modal with a button -->
+              <button type="button" class="btn bt-lg" data-toggle="modal" data-target="#mySurvey">Make a Booking</button>
+                
+              <!-- Modal -->
+              <div class="modal fade" id="mySurvey" role="dialog">
+                  <div class="modal-dialog">
+                    
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                      <div class="modal-header">
+                        <h3>Book an Appointment</h3>  
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="form">
+                              <p>Please fill in the form to make an appointment</p>
+                              <form>
+                                
+                                  <label>Name: <input type="text" value=""></label>
+      
+                                  <label>Email: <input type="text" value=""></label>
+
+                                  <label>Health Card: <input type="text" value=""></label>
+                                  <br>
+      
+                                  <label>Date: <input type="date" value=""></label>
+
+                                  <br>
+                                
+                                  <label>Time: <input type="time" value=""></label>
+
+                                  <br>
+                                  <br>
+
+                                  <div class="multi-form">
+                                    <label> Choose the services you wish to receive: </label>
+                                    <br>
+                                    <label for="">
+                                        <input type="checkbox" name="functionality" class="checkbox" value="ease-of-use"> Accupuncture <br>
+                                    </label>
+                                    <br>
+                                    <label for="">
+                                        <input type="checkbox" name="functionality" class="checkbox" value="interface-design"> Inversion Therapy <br>
+                                    </label>
+                                    <br>
+                                    <label for="">
+                                        <input type="checkbox" name="functionality" class="checkbox" value="features-provided"> Lymphatic Drainage <br>
+                                    </label>
+                                    <br>
+                                    <label for="">
+                                      <input type="checkbox" name="functionality" class="checkbox" value="ease-of-use"> Ultrasound <br>
+                                  </label>
+                                  <br>
+                                  <label for="">
+                                      <input type="checkbox" name="functionality" class="checkbox" value="interface-design"> Kinesiology Tape <br>
+                                  </label>
+                                </div>
+
+                                <br>
+
+                                <div class="drop_form">
+                                  <label> Choose an Expert: </label>
+                      
+                                  <select name="scale" required id="dropdown" class="formControl">
+                                      <option value disabled selected >Select a value</option>
+                                      <option value="one">Dr.Jill Matthews</option>
+                                      <option value="two">Dr.Andrew Foster</option>
+                                      <option value="three">Dr.Miller Andrews</option>
+                
+                                  </select>
+                                </div>
+
+                                <br>
+                              </form>
+                             <button type="button" class="btn btn-dark" data-dismiss="modal">Book Appointment</button>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-dark" data-dismiss="modal">Exit</button>
+                      </div>
+                  </div>     
+              </div>
+              </div>    
+          </div>
+
+        </section>
+    
+           
+
+            
+        
+              
+        
+
+    </body>
+
+    <footer>
+      <div class="foot">
+        
+        <div class="row">
+          <div class="col-lg-12 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="icon-screen-smartphone text-primary"></i>
+                    <h3>
+                      Where 
+                      <span class="material-icons">
+                        location_on
+                      </span>
+                    </h3>
+                    <p>18 Melody Drive, Ottawa, ON K1N 6N7</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>
+                      When
+                      <span class="material-icons">
+                        schedule
+                      </span>
+                    </h3>
+                    <p>9:00am - 5:00pm</p>
+                    <p>Monday - Saturday</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3>
+                      How
+                      <span class="material-icons">
+                        call
+                      </span>
+                    </h3>
+                    <p>613-181-0001</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+  
+</html>
