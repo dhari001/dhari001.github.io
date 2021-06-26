@@ -10,6 +10,7 @@ body {
     height: 100%;
     color:var(--color-white);
     overflow-x: hidden; 
+    margin: 0;
     overflow-y: scroll;
   }
 
@@ -18,22 +19,35 @@ body {
     width: 1205px;
     margin-left: 30px;
     margin-right: 100px;
-    background-color: var(--color-blue);
-}
-
-.navbar-brand{
-    color: var(--color-white);
-    font-size: 30px;
-}
-
-.nav-link{
-    margin-left: 10px;
     
+    background-color: var(--color-blue);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
 }
 
-.nav-item{
-    color: var(--color-gray);
-}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar a:hover {
+    background: var(--color-gray);
+    color: var(--color-white);
+  }
+
+  .main {
+      margin-top: 120px;
+      
+  }
 
 .header{
     margin-left: 55px;
@@ -82,12 +96,19 @@ body {
 .btn{
     background-color: var(--color-gray);
     color: var(--color-white);
+    border:#000000;
 }
 
 .form{
     color: var(--color-black);
     margin-top: 20px;
 }
+
+.error{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
 
 
 
