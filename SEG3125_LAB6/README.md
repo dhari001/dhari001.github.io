@@ -7,7 +7,7 @@ Create a design of a site, include interactive processes and usability heuristic
 Dharitri Dixit: 300109815
 
 ## Link
-[Report]()\
+[Report](https://github.com/dhari001/dhari001.github.io/blob/main/SEG3125_LAB6/Module%207_%20Lab%20(1).pdf)
 
 ## Color Scheme
 - white
