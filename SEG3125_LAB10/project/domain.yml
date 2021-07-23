@@ -1,0 +1,71 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- inform
+- subscribe
+- unsubscribe
+- reasons
+- thanks
+- bye
+slots:
+  email:
+    type: unfeaturized
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: |
+      Hello! How can I help you?
+  - text: |
+      Hi!
+  utter_ask_email:
+  - text: |
+      What is your email address?
+  utter_subscribed:
+  - text: |
+      Check your inbox at {email} in order to finish subscribing to the newsletter!
+  - text: You're all set! Check your inbox at {email} to confirm your subscription.
+  utter_thank:
+  - text: |
+      Glad I could help
+  - text: You're welcome
+  - text: Anytime!
+  - text: Happy to help
+  utter_bye:
+  - text: |
+      Bye
+  - text: Goodbye
+  - text: Have a good day, bye!
+  - text: Have a nice day, goodbye!
+  utter_question:
+  - text: |
+     Why?
+  - text: How come?
+  - text: Why are you unsubscribing?
+  - text: Please provide a reason for the unsubscription. 
+  utter_empathy:
+  - text: |
+      Okay!
+  - text: Okay, no problem!
+  - text: Sounds good!
+  - text: Okay we understand.
+ 
+
+
+
+actions:
+- '...'
+- utter_greet
+- utter_subscribed
+- utter_question
+- utter_empathy
+- utter_thank
+- utter_bye
+
+forms:
+  newsletter_form:
+    required_slots:
+      email:
+      - type: from_text
