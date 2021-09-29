@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dhari/static/css/main.539307f9.chunk.css",
+    "main.js": "/dhari/static/js/main.8ebb5dcd.chunk.js",
+    "main.js.map": "/dhari/static/js/main.8ebb5dcd.chunk.js.map",
+    "runtime-main.js": "/dhari/static/js/runtime-main.61138513.js",
+    "runtime-main.js.map": "/dhari/static/js/runtime-main.61138513.js.map",
+    "static/js/2.33255e58.chunk.js": "/dhari/static/js/2.33255e58.chunk.js",
+    "static/js/2.33255e58.chunk.js.map": "/dhari/static/js/2.33255e58.chunk.js.map",
+    "index.html": "/dhari/index.html",
+    "precache-manifest.02dea5263e93934c479e2ea3ae40d114.js": "/dhari/precache-manifest.02dea5263e93934c479e2ea3ae40d114.js",
+    "service-worker.js": "/dhari/service-worker.js",
+    "static/css/main.539307f9.chunk.css.map": "/dhari/static/css/main.539307f9.chunk.css.map",
+    "static/js/2.33255e58.chunk.js.LICENSE.txt": "/dhari/static/js/2.33255e58.chunk.js.LICENSE.txt",
+    "static/media/dhariResume.pdf": "/dhari/static/media/dhariResume.e64ad77f.pdf",
+    "static/media/hashirshoaeb.png": "/dhari/static/media/hashirshoaeb.32f6b574.png",
+    "static/media/resume.pdf": "/dhari/static/media/resume.9d3da0e2.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61138513.js",
+    "static/js/2.33255e58.chunk.js",
+    "static/css/main.539307f9.chunk.css",
+    "static/js/main.8ebb5dcd.chunk.js"
+  ]
+}
