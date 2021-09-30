@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dhari/static/css/main.539307f9.chunk.css",
-    "main.js": "/dhari/static/js/main.4b30144e.chunk.js",
-    "main.js.map": "/dhari/static/js/main.4b30144e.chunk.js.map",
-    "runtime-main.js": "/dhari/static/js/runtime-main.61138513.js",
-    "runtime-main.js.map": "/dhari/static/js/runtime-main.61138513.js.map",
-    "static/js/2.d838b552.chunk.js": "/dhari/static/js/2.d838b552.chunk.js",
-    "static/js/2.d838b552.chunk.js.map": "/dhari/static/js/2.d838b552.chunk.js.map",
-    "index.html": "/dhari/index.html",
-    "precache-manifest.8efc65a4e077d56c627003453fc4ebd1.js": "/dhari/precache-manifest.8efc65a4e077d56c627003453fc4ebd1.js",
-    "service-worker.js": "/dhari/service-worker.js",
-    "static/css/main.539307f9.chunk.css.map": "/dhari/static/css/main.539307f9.chunk.css.map",
-    "static/js/2.d838b552.chunk.js.LICENSE.txt": "/dhari/static/js/2.d838b552.chunk.js.LICENSE.txt",
-    "static/media/dhari.JPG": "/dhari/static/media/dhari.da62c2c0.JPG",
-    "static/media/resume.pdf": "/dhari/static/media/resume.29dea2f8.pdf"
+    "main.css": "/home/static/css/main.539307f9.chunk.css",
+    "main.js": "/home/static/js/main.4182522f.chunk.js",
+    "main.js.map": "/home/static/js/main.4182522f.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
+    "static/js/2.d838b552.chunk.js": "/home/static/js/2.d838b552.chunk.js",
+    "static/js/2.d838b552.chunk.js.map": "/home/static/js/2.d838b552.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.eb437cbade6291b09cb2bff1d1978646.js": "/home/precache-manifest.eb437cbade6291b09cb2bff1d1978646.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.539307f9.chunk.css.map": "/home/static/css/main.539307f9.chunk.css.map",
+    "static/js/2.d838b552.chunk.js.LICENSE.txt": "/home/static/js/2.d838b552.chunk.js.LICENSE.txt",
+    "static/media/dhari.JPG": "/home/static/media/dhari.da62c2c0.JPG",
+    "static/media/resume.pdf": "/home/static/media/resume.29dea2f8.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.61138513.js",
+    "static/js/runtime-main.3c590061.js",
     "static/js/2.d838b552.chunk.js",
     "static/css/main.539307f9.chunk.css",
-    "static/js/main.4b30144e.chunk.js"
+    "static/js/main.4182522f.chunk.js"
   ]
 }
