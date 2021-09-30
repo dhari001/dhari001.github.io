@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.539307f9.chunk.css",
-    "main.js": "/home/static/js/main.0c8a24f8.chunk.js",
-    "main.js.map": "/home/static/js/main.0c8a24f8.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/js/2.008eb31a.chunk.js": "/home/static/js/2.008eb31a.chunk.js",
-    "static/js/2.008eb31a.chunk.js.map": "/home/static/js/2.008eb31a.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.222f141ee2ed3b1ea1f1c72e411865a1.js": "/home/precache-manifest.222f141ee2ed3b1ea1f1c72e411865a1.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.539307f9.chunk.css.map": "/home/static/css/main.539307f9.chunk.css.map",
-    "static/js/2.008eb31a.chunk.js.LICENSE.txt": "/home/static/js/2.008eb31a.chunk.js.LICENSE.txt",
-    "static/media/SummerResume.pdf": "/home/static/media/SummerResume.d03e19d9.pdf",
-    "static/media/dhari.JPG": "/home/static/media/dhari.da62c2c0.JPG",
-    "static/media/resume.pdf": "/home/static/media/resume.29dea2f8.pdf"
+    "main.css": "/static/css/main.956fad23.chunk.css",
+    "main.js": "/static/js/main.d8315145.chunk.js",
+    "main.js.map": "/static/js/main.d8315145.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
+    "static/js/2.fffcefba.chunk.js": "/static/js/2.fffcefba.chunk.js",
+    "static/js/2.fffcefba.chunk.js.map": "/static/js/2.fffcefba.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.99bd0547524acc9097866401dd3cab61.js": "/precache-manifest.99bd0547524acc9097866401dd3cab61.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.956fad23.chunk.css.map": "/static/css/main.956fad23.chunk.css.map",
+    "static/js/2.fffcefba.chunk.js.LICENSE.txt": "/static/js/2.fffcefba.chunk.js.LICENSE.txt",
+    "static/media/SumResume.pdf": "/static/media/SumResume.19f14849.pdf",
+    "static/media/hashirshoaeb.png": "/static/media/hashirshoaeb.32f6b574.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c590061.js",
-    "static/js/2.008eb31a.chunk.js",
-    "static/css/main.539307f9.chunk.css",
-    "static/js/main.0c8a24f8.chunk.js"
+    "static/js/runtime-main.554504a0.js",
+    "static/js/2.fffcefba.chunk.js",
+    "static/css/main.956fad23.chunk.css",
+    "static/js/main.d8315145.chunk.js"
   ]
 }
